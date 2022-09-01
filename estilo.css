@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(66, 65, 61);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.Primeiroparagrafo {
+    color:black;
+    background-color: white;
+}
+
+.Segundoparagrafo {
+    color:rgb(201, 0, 0);
+    background-color: rgb(35, 40, 83);
+}
+
+.Terceiroparagrafo {
+    color:rgb(137, 0, 201);
+    background-color: rgb(19, 156, 26);
+}
