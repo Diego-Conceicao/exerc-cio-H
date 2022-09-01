@@ -1,0 +1,28 @@
+
+body{
+    background-color:white ;
+}
+
+
+
+
+
+
+
+h1 {
+
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+p {
+    letter-spacing: 10px;
+    line-height: 20px;
+}
