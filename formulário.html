@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-brs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Exemplo de Formulário
+        </h1>
+    </header>
+
+    <form>
+        <fieldset>
+            <legend>Identificação:</legend><br>
+                <label for="Nome">Nome</label><br><br>
+                
+                    <input type="text"
+                    size="50px" 
+                    id="Nome" required placeholder="Escreva seu Nome Completo"><br><br>
+                    
+                <br>
+
+                <p>
+                    Onde você mora <br><br></p>
+                    <input type="radio" id="Cidade">
+                    <label for="Cidade">Cidade</label><br>
+                    <input type="radio" id="Interior"> 
+                    <label for="Interior">Interior</label>
+                    <br><br>
+        </fieldset> <br><br>
+
+        <fieldset>
+            <legend>Informações do Usuário</legend>
+                <p> Qual é o seu meio de transporte?</p>
+                    
+                    <input type="checkbox" id="Metrô">
+                    <label for="Metrô">Metrô</label><br>
+                    <input type="checkbox" id="Ônibus">
+                    <label for="Ônibus">Ônibus</label><br><br>
+
+                    
+                    <label for="">Selecione o seu time:</label>
+                    
+
+                    <select name="" id="">
+                        <option value="Palmeiras">Palmeiras</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Santos">Santos</Option>
+                    </select> <br><br>
+        </fieldset> <br><br>
+        
+        <fieldset>
+            <legend>Feedback</legend>
+
+                <p>Sugestões, elogios e críticas:</p>
+                <textarea name="" id="" cols="50" rows="10"></textarea> <br><br>
+                <input type="submit" value="Cadastrar">
+        </fieldset>
+    </form>
+       
+</body>
+</html>
